@@ -1,0 +1,446 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+.fullpage{
+  overflow: hidden;
+}
+.top-page{
+ background-image:url(./common/Assest/images/img/headbanner.png);
+ background-size: contain;
+}
+.carding{
+  margin-top:40px ;
+  overflow: hidden;
+}
+@keyframes card{
+  from{
+    transform: translateX(-500px);
+  }
+}
+
+.discover{
+  font-weight: 700;
+  font-size:80px;
+  color:rgb(77, 77, 233);
+ 
+}
+.digital{
+  font-weight: 700;
+  font-size:80px;
+}
+.leftimg{
+  object-fit: cover;
+  width: 100%;
+  height: 430px !important;
+  border-radius:10px 10px 0px 0px ;
+}
+.simg{
+  border-radius: 50%;
+  width: 30px;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+.spara{
+  margin-top: -40px;
+  margin-left: 80px;
+  font-weight: 700;
+  color: rgb(62, 62, 238);
+}
+.spara2{
+  margin-top: -20px;
+  margin-left: 80px;
+  font-weight: 500;
+}
+.carding2{
+  margin-left:50px ;
+  margin-top: 40px;
+  background-color: rgb(236, 243, 243);
+  width: 470px;
+  height: 500px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+@keyframes card2{
+  from{
+    transform: translateX(500px);
+  }
+}
+.secondslotp1{
+  display: flex;
+  justify-content: center;
+  font-weight: 900;
+  font-size: 50px;
+  color: rgb(48, 48, 241);
+}
+.carding3{
+  width: 100%;
+  height: 350px;
+  background-color: rgb(238, 243, 243);
+  border-radius: 10px;
+  border: brown 2px solid;
+
+  
+}
+.tom{
+  width: 100%;
+  padding: 20px;
+  height: 300px !important;
+  object-fit:cover;
+
+}
+.catpara{
+  display: flex;
+  justify-content: center;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+  font-weight:600 ;
+  font-size: 25px;
+}
+.carding4{
+  width: 100%;
+  height: 130px;
+  padding: 15px;
+  background-image: url(./common/Assest/images/img/bjpg.jpg);
+  border-radius: 10px;
+}
+.thirdimg{
+  width: 90px;
+  height:100px !important;
+  margin-left: 10px;
+
+}
+.thirdpara1{
+  margin-top: -80px;
+  margin-left: 120px;
+  font-weight: 700;
+  font-size: 20px;
+}
+.thirdpara2{
+  margin-top: -14px;
+  margin-left: 120px;
+  color: rgb(49, 49, 159);
+  font-weight: 700;
+
+}
+.carding5{
+  background-image:url(./common/Assest/images/img/bjpg.jpg);
+  width: 100%;
+  height: 420px;
+  border: black 2px solid;
+  border-radius: 10px 10px 10px 10px;
+}
+.fourthimg{
+  width: 100%;
+  height: 270px !important;
+  border-radius: 10px 10px 0px 0px;
+
+}
+.fourthp{
+  padding: 10px;
+}
+.fourthpara1{
+  font-weight: 800;
+  font-size: 20px;
+  color: rgb(79, 71, 219);
+}
+.fourthpara2{
+  font-weight: 500;
+}
+.fourthbusd{
+  font-weight: 700;
+}
+.para23{
+  display:flex;
+  justify-content: space-between;
+}
+.fourthsml{
+  border-radius: 50%;
+  margin-top: -8px;
+  width:38px ;
+}
+.fourthsm2{
+  border-radius:50% ;
+  width: 30px;
+  margin-left: -15px;
+  margin-top: -5px;
+
+}
+.fourthpara3{
+  margin-top: -38px;
+  margin-left: 63px;
+  font-weight: 700;
+  color: rgb(47, 41, 224);
+}
+.fourthpara4{
+  margin-top: -20px;
+  margin-left: 63px;
+  font-weight: 400;
+}
+.ca1{
+  display: flex;
+  justify-content: center;
+}
+.loadmore{
+  padding: 8px;
+  background-color: rgb(241, 241, 248);
+  color: rgb(45, 48, 218);
+  border-radius: 10px;
+  border:rgb(45, 48, 218) 1px solid ;
+}
+.loadmore:hover{
+  background-color:rgb(45, 48, 218) ;
+  color: white;
+}
+@media  screen and (max-width:577px) {
+  .discover{
+    font-weight: 600;
+    font-size: 60px;
+  }
+  .digital{
+    font-weight: 600;
+    font-size: 60px;
+  }
+  .carding2{
+  margin: auto;
+    width: 300px;
+    height: 380px;
+  }
+  .leftimg{
+    object-fit: cover !important;
+    height: 310px !important;
+  }
+  .secondslotp1{
+    font-size: 40px;
+    font-weight: 500;
+  }
+  .carding3{
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    
+  }
+  .tom{
+    object-fit:cover;
+    height: 250px !important;
+  }
+  .carding4{
+    width: 330px;
+    margin: auto;
+  }
+  .carding5{
+    width: 320px;
+  margin: auto;
+    height: 380px;
+  }
+  .fourthimg{
+    height: 240px !important;
+  }
+  .r1{
+    margin-left: -10px;
+  }
+  .center{
+   margin-left: 60px
+  }
+  .leg{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+}
+    
+    @media  screen and (min-width:576px) and (max-width:767px) {
+  .discover{
+    font-weight: 600;
+    font-size: 60px;
+  }
+  .digital{
+    font-weight: 600;
+    font-size: 60px;
+  }
+  .carding2{
+    margin-left: 100px;
+    width: 300px;
+    height: 380px;
+  }
+  .leftimg{
+    object-fit: cover !important;
+    height: 310px !important;
+  }
+  .secondslotp1{
+    font-size: 40px;
+    font-weight: 500;
+  }
+  .carding3{
+    width: 300px;
+    height: 300px;
+    margin-left: 100px;
+    
+  }
+  .tom{
+    object-fit:cover;
+    height: 250px !important;
+  }
+  .carding4{
+    width: 400px;
+    margin-left: 70px;
+  }
+  .carding5{
+    width: 350px;
+    margin-left: 78px;
+    height: 380px;
+  }
+  .fourthimg{
+    height: 240px !important;
+  }
+  .r1{
+    margin-left: -10px;
+  }
+  .center{
+   margin-left: 60px
+  }
+  .leg{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+ 
+    }
+    @media  screen and (min-width:768px) and (max-width:991px) {
+      .discover{
+        font-weight: 600;
+        font-size: 70px;
+      }
+      .digital{
+        font-weight: 600;
+        font-size: 70px;
+      }
+      .carding2{
+        margin-left: 40px;
+        width: 330px;
+        height: 440px;
+        margin-top:100px;
+      }
+      .leftimg{
+        object-fit: cover !important;
+        height: 360px !important;
+      }
+      .secondslotp1{
+        font-size: 50px;
+        font-weight: 700;
+        margin-left: 20px;
+      }
+      .carding3{
+        width: 300px;
+        height: 300px;
+        margin:auto
+        
+      }
+      .tom{
+        object-fit:cover;
+        height: 250px !important;
+      }
+      .carding4{
+        width: 300px;
+        margin-left: 20px;
+      }
+      .carding5{
+        width: 300px;
+        margin-left: 20px;
+        height: 380px;
+      }
+      .fourthimg{
+        height: 240px !important;
+      }
+      .r1{
+        margin-left: -10px;
+      }
+      .center{
+       margin-left: 60px
+      }
+      .leg{
+        margin-top: 60px;
+    }
+  
+    }
+    @media  screen and (min-width:992px)and (max-width:1199px) {
+      .carding5{
+          height: 320px;      
+      }
+      .fourthp{
+        margin-top: -10px;
+      }
+      .fourthpara1{
+        font-weight: 800;
+        font-size: 15px;
+      }
+      .fourthpara2{
+        margin-top: -10px;
+        font-size: 15px;
+      }
+      .fourthpara3{
+        font-size: 14px;
+      }
+      .fourthpara4{
+        font-size: 14px;
+      }
+      .fourthbusd{
+        margin-top: -10px;
+        font-size: 14px;
+      }
+      .fourthsml{
+        width: 35px;
+      }
+      .fourthsm2{
+        width: 26px;
+      }
+      .fourthimg{
+        height: 220px !important;
+      }
+      .search11{
+           width: 150px;
+      }
+      .fcon-p{
+        font-size: 16px;
+        margin-left: 5px;
+        font-weight: 900;
+      }
+      .logo{
+        width: 100px;
+      }
+      .nu{
+        padding-left: 10px !important;
+      }
+      .sea{
+        width: 200px !important;
+      }
+      .icon1{
+        width: 40px;
+      }
+      .icon2{
+        width: 50px;
+      }
+      
+    }
+    @media  screen and (min-width:1200px)and (max-width:1350px) {
+      .sea{
+        width: 200px !important;
+      }
+      .icon1{
+        width: 40px;
+      }
+      .icon2{
+        width: 50px;
+      }
+    }
+    @media  screen and (min-width:1351px)and (max-width:1400px) {
+      .sea{
+        width: 400px !important;
+      }
+      .icon1{
+        width: 40px;
+      }
+      .icon2{
+        width: 50px;
+      }
+    }

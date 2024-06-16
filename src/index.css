@@ -1,0 +1,95 @@
+.logo{
+    width:100px;
+    margin-left: 20px;
+}
+.sea{
+    width: 500px !important;
+    padding: 10px;
+    margin-top: 4px;
+    border-radius: 10px;
+}
+.sea1{
+  margin-left: 15px;
+  padding: 10px 35px 10px 35px !important;
+
+}
+.nu{
+    padding-left: 40px !important;
+}
+.bg{
+    background-color: rgb(29, 29, 25);
+    padding: 0%  !important;
+   width: 100%;
+   height: 70px;
+    
+
+}
+a{
+    color: white !important;
+}
+.icon1{
+    width:45px;
+    margin-left: 40px;
+}
+.icon2{
+    width:50px;
+    margin-left: 20px;
+}
+.c1{
+    display: flex;
+    justify-content:space-evenly;
+}
+.footerpage{
+    background-color: aliceblue;
+    margin-top: 40px;
+  
+}
+.lower{
+   padding: 50px 0px;
+}
+.r1{
+    display:flex;
+    justify-content:space-between;
+   
+}
+.bcon1 ,.bcon3,.bcon5,.bcon7{
+    color: blue;
+    font-weight: 700;
+    
+}
+.search11{
+    padding: 8px;
+    border-radius: 10px;
+}
+.bwt{
+    padding: 8px;
+    border-radius: 14px;
+    margin-left: -18px;
+    background-color: rgb(53, 53, 197);
+    color: white;
+}
+.fcon-im{
+    width: 230px;
+}
+.fcon-p{
+    color: rgb(53, 53, 197) ;
+    font-weight: 800;
+    font-size: 20px;
+    align-items: center;
+}
+footer{
+    display: flex ;
+    justify-content: center;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.centersec{
+   display: flex;
+   align-items: center;
+   /* justify-content: center; */
+   flex-direction: column;
+}   
+.navbar{
+    width: 100% !important;
+}
